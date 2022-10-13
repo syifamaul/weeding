@@ -12,11 +12,22 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
+	<script>
+		$(function () {
+			var app = new Vue({
+				el: '#app',
+				data: {
+					message: 'You loaded this page on ' + new Date().toLocaleString()
+				}
+			})
+		})
+	</script>
 </head>
 
 <body>
-
+	<div id="app">
+		<span>{{message}}</span>
+	</div>
 </body>
 
 </html>
