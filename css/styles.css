@@ -2,6 +2,16 @@ html {
     font-size: 14px;
 }
 
+body {
+    /* background-image: url(../images/bg-sage-01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left; */
+
+    background: lightblue url(../images/bg-sage-01.jpg) no-repeat fixed top center;
+
+}
+
 @media (min-width: 768px) {
     html {
         font-size: 16px;
